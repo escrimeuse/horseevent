@@ -18,7 +18,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/yourhorses">Your Horses</a></li>
                         <li><a href="/yourupcomingevents">Your Upcoming Events</a></li>
-                        <li><a href="#">Your Past Events</a></li>
+                        <li><a href="/yourpastevents">Your Past Events</a></li>
                         <li><a href="/yourinfo">Your Information</a></li>
                     </ul>
                 </li>

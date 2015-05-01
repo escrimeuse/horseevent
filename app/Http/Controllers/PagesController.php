@@ -29,5 +29,13 @@ class PagesController extends Controller {
         return view('yourinfo');
     }
 
+    public function yourpastevents(){
+        return view('yourpastevents');
+    }
+
+    public function eventpage(){
+        return view('event');
+    }
+
 
 }

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>Your Upcoming Events</h1>
+    <h1>Your Past Events</h1>
     <div class="spacer" style="height:30px"></div>
 
     <div class="row">
@@ -39,6 +39,7 @@
                                     <th>#</th>
                                     <th>Name</th>
                                     <th>Horse</th>
+                                    <th>Placement</th>
                                 </tr>
                                 </thead>
                             </table>
@@ -81,6 +82,7 @@
                                     <th>#</th>
                                     <th>Name</th>
                                     <th>Horse</th>
+                                    <th>Placement</th>
                                 </tr>
                                 </thead>
                             </table>
