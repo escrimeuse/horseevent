@@ -13,3 +13,5 @@ Route::get('yourinfo','PagesController@yourinfo');
 Route::get('yourpastevents','PagesController@yourpastevents');
 
 Route::get('eventpage','PagesController@eventpage');
+
+Route::get('createevent','PagesController@createevent');

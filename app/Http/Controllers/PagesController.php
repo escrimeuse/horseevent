@@ -37,5 +37,9 @@ class PagesController extends Controller {
         return view('event');
     }
 
+    public function createevent(){
+        return view('createevent');
+    }
+
 
 }

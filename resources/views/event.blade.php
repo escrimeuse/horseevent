@@ -12,8 +12,16 @@
                     Event Logo Here
                 </div>
                 <div class="col-md-4">
-                    <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> [Date] </p>
-                    <p><span class="glyphicon glyphicon-home" aria-hidden="true"></span> [Location]</p>
+                    <table class="table">
+                        <tr>
+                            <td><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></td>
+                            <td>[Date]</td>
+                        </tr>
+                        <tr>
+                            <td><span class="glyphicon glyphicon-home" aria-hidden="true"></span></td>
+                            <td>[Location]</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="col-md-4">
                     <a href="">

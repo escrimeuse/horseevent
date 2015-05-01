@@ -46,7 +46,7 @@
                     </tr>
                 </table>
                 <div class="panel-footer">
-                    <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Event Page</button></a>
+                    <a href="/eventpage"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Event Page</button></a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                     </tr>
                 </table>
                 <div class="panel-footer">
-                    <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Event Page</button></a>
+                    <a href="/eventpage"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Event Page</button></a>
                 </div>
             </div>
         </div>
