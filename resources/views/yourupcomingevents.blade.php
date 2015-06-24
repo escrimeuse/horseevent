@@ -36,8 +36,8 @@
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    <th>#</th>
-                                    <th>Name</th>
+
+                                    <th>Class</th>
                                     <th>Horse</th>
                                 </tr>
                                 </thead>
@@ -78,7 +78,7 @@
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    <th>#</th>
+                                    
                                     <th>Name</th>
                                     <th>Horse</th>
                                 </tr>

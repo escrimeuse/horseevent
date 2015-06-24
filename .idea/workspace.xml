@@ -68,41 +68,19 @@
       <file leaf-file-name="event.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/event.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1428">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="459" max-vertical-offset="1428">
               <caret line="27" column="27" selection-start-line="27" selection-start-column="24" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createevent.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/createevent.blade.php">
+      <file leaf-file-name="yourupcomingevents.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/yourupcomingevents.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.923077" vertical-offset="1491" max-vertical-offset="2176">
-              <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.77483445" vertical-offset="1009" max-vertical-offset="1819">
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="horseprofile.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/horseprofile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yourhorses.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/yourhorses.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54966885" vertical-offset="2301" max-vertical-offset="2873">
-              <caret line="209" column="70" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="70" />
-              <folding>
-                <element signature="n#div#1;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,12 +99,12 @@
         <option value="$PROJECT_DIR$/resources/views/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/yourpastevents.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/resources/views/yourupcomingevents.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/event.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/createevent.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/yourhorses.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yourupcomingevents.blade.php" />
       </list>
     </option>
   </component>
@@ -644,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yourupcomingevents.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9677419" vertical-offset="186" max-vertical-offset="1819">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
@@ -667,34 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/event.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1428">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="24" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="467">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/createevent.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.923077" vertical-offset="1491" max-vertical-offset="2176">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/horseprofile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -706,6 +653,38 @@
           <folding>
             <element signature="n#div#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/horseprofile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21888413" vertical-offset="0" max-vertical-offset="466">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/createevent.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79911697" vertical-offset="1491" max-vertical-offset="2176">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/event.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1428">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="24" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yourupcomingevents.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77483445" vertical-offset="1009" max-vertical-offset="1819">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
