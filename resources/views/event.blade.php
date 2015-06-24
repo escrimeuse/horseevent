@@ -1,11 +1,10 @@
 @extends('base')
 
 @section('content')
-
+    <h1>Event <small> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> [Event Title]</small></h1>
+    <hr/>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h1 class="panel-title">[Event Title]</h1>
-        </div>
+
         <div class="panel-body">
             <div class="row">
                 <div class="col-md-4">
@@ -40,7 +39,7 @@
 
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h1 class="panel-title">Description</h1>
+            <h3>Description</h3>
         </div>
         <div class="panel-body">
             Event Description Here
@@ -49,7 +48,7 @@
 
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h1 class="panel-title">Class List</h1>
+            <h3>Class List</h3>
         </div>
         <div class="panel-body">
             <table class="table">

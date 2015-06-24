@@ -41,5 +41,9 @@ class PagesController extends Controller {
         return view('createevent');
     }
 
+    public function showrecord(){
+        return view('yourshowrecord');
+    }
+
 
 }

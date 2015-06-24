@@ -3,14 +3,14 @@
 @section('content')
 
     <h1>Your Information</h1>
-    <div class="spacer" style="height:30px"></div>
+    <hr />
 
     <div class="row">
 
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Personal Information</h3>
+                <div class="panel-heading text-center">
+                    <h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h3><h3> Personal Information</h3>
                 </div>
                 <table class="table">
                     <tr>
@@ -35,7 +35,7 @@
                     </tr>
 
                 </table>
-                <div class="panel-footer">
+                <div class="panel-footer text-center">
                     <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
                 </div>
             </div>
@@ -43,8 +43,8 @@
 
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact Details</h3>
+                <div class="panel-heading text-center">
+                    <h3><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></h3><h3> Contact Details</h3>
                 </div>
                 <table class="table">
                     <tr>
@@ -60,7 +60,7 @@
                         <td>[email]</td>
                     </tr>
                 </table>
-                <div class="panel-footer">
+                <div class="panel-footer text-center">
                     <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
                 </div>
             </div>
@@ -69,8 +69,8 @@
 
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Equestrian Details</h3>
+                <div class="panel-heading text-center">
+                    <h3><span class="glyphicon glyphicon-star" aria-hidden="true"></span></h3><h3> Equestrian Details</h3>
                 </div>
                 <table class="table">
                     <tr>
@@ -82,7 +82,7 @@
                         <td>[stable]</td>
                     </tr>
                 </table>
-                <div class="panel-footer">
+                <div class="panel-footer text-center">
                     <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
                 </div>
             </div>

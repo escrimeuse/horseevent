@@ -2,8 +2,8 @@
 
 @section('content')
 
-    <h1>Your Upcoming Events</h1>
-    <div class="spacer" style="height:30px"></div>
+    <h1>Show Record <small> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Your Upcoming Events</small></h1>
+    <hr />
 
     <div class="row">
 
@@ -78,7 +78,7 @@
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    
+
                                     <th>Name</th>
                                     <th>Horse</th>
                                 </tr>

@@ -164,14 +164,14 @@
 
 
     <h1>Your Horses</h1>
-    <div class="spacer" style="height:30px"></div>
+    <hr />
 
     <div class="row">
 
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">[Horse Name]</h3>
+                <div class="panel-heading text-center">
+                    <h3>[Horse Name]</h3>
                 </div>
                 <div class="panel-body text-center">
                     <img src="/horse.png" alt="horse"/>
@@ -198,7 +198,7 @@
                         <td>[colour]</td>
                     </tr>
                 </table>
-                <div class="panel-footer">
+                <div class="panel-footer text-center">
                     <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#showRecord"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> Show Record</button>
                     <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#edit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button>
 

@@ -2,8 +2,8 @@
 
 @section('content')
 
-    <h1>Your Past Events</h1>
-    <div class="spacer" style="height:30px"></div>
+    <h1>Show Record <small> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Your Past Events</small></h1>
+    <hr/>
 
     <div class="row">
 

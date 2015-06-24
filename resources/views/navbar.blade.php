@@ -7,36 +7,30 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">ShowTime</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="/yourhorses">Your Horses</a></li>
+                <li><a href="/yourinfo">Your Info</a></li>
+                <li><a href="/showrecord">Your Show Record</a></li>
+                <li><a href="#">Search for Upcoming Events</a></li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">You <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/yourhorses">Your Horses</a></li>
-                        <li><a href="/yourupcomingevents">Your Upcoming Events</a></li>
-                        <li><a href="/yourpastevents">Your Past Events</a></li>
-                        <li><a href="/yourinfo">Your Information</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Host <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Create Event</a></li>
-                        <li><a href="#">Search for Upcoming Events</a></li>
+                        <li><a href="#">Manage Upcoming Hosted Events</a></li>
+                        <li><a href="#">View Previously Hosted Events</a></li>
+
+
                     </ul>
                 </li>
 
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="../navbar/">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="./">Log Out <span class="sr-only">(current)</span></a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
