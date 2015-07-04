@@ -9,10 +9,10 @@
 
 
 
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">[Event Name]</h3>
+                    <h2>[Event Name]</h2>
                 </div>
                 <div class="panel-body text-center">
                     <img src="/dressage.jpg" alt="jumper" height="200px"/>
@@ -26,10 +26,7 @@
                         <td>Location:</td>
                         <td>[location]</td>
                     </tr>
-                    <tr>
-                        <td>Paid:</td>
-                        <td>[paid]</td>
-                    </tr>
+
                     <tr>
                         <td>Your Registered Classes:</td>
                         <td>
@@ -51,10 +48,10 @@
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">[Event Name]</h3>
+                    <h2>[Event Name]</h2>
                 </div>
                 <div class="panel-body text-center">
                     <img src="/jumper.png" alt="jumper" height="200px"/>
@@ -68,10 +65,7 @@
                         <td>Location:</td>
                         <td>[location]</td>
                     </tr>
-                    <tr>
-                        <td>Paid:</td>
-                        <td>[paid]</td>
-                    </tr>
+
                     <tr>
                         <td>Your Registered Classes:</td>
                         <td>

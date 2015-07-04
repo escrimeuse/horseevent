@@ -1,77 +1,125 @@
 @extends('base')
 
 @section('content')
+
+    <!-- Class Info Modal -->
+    <div class="modal fade" id="classInfo" tabindex="-1" role="dialog" aria-labelledby="classInfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">[Class Name]</h4>
+                </div>
+                <table class="table">
+                    <tr>
+                        <td>ID:</td>
+                        <td>[ID]</td>
+                    </tr>
+                    <tr>
+                        <td>Entry Price</td>
+                        <td>[$$]</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Entrants:</td>
+                        <td>[#]</td>
+                    </tr>
+
+                    <tr>
+                        <td>Documents:</td>
+                        <td><ul>
+                                <li>Attachment 1</li>
+                                <li>Attachment 2</li>
+                            </ul></td>
+                    </tr>
+                    <tr>
+                        <td>Description:</td>
+                        <td>[Class Description]</td>
+                    </tr>
+                </table>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <h1>Event <small> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> [Event Title]</small></h1>
     <hr/>
-    <div class="panel panel-default">
 
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-md-4">
-                    Event Logo Here
+
+    <div class="row">
+
+        <div class="col-md-4 text-center">
+            <div class="panel panel-default" >
+                <div class="panel-heading"><h2>Information</h2></div>
+                <div class="panel-body">
+                    <img src="/dressage.jpg" alt="jumper" height="200px"/>
                 </div>
-                <div class="col-md-4">
-                    <table class="table">
+                <table class="table text-center">
+                    <tr>
+                        <td>
+                            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></p>
+                            <p>[Date]</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span class="glyphicon glyphicon-home" aria-hidden="true"></span></p>
+                            <p>[Location]</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></p>
+                            <p>[Description]</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <a href=""><div class="well well-lg"><h2>Register Now!</h2></div></a>
+
+        </div>
+
+        <div class="col-md-8 text-center">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Class List</h2></div>
+                <div class="panel-body">
+                   <table class="table table-hover">
+                       <thead>
                         <tr>
-                            <td><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></td>
-                            <td>[Date]</td>
+                            <th>Class Name</th>
+                            <th>Entry Price</th>
+                            <th># of Entrants</th>
+                            <th></th>
                         </tr>
-                        <tr>
-                            <td><span class="glyphicon glyphicon-home" aria-hidden="true"></span></td>
-                            <td>[Location]</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <button class="btn btn-default" type="submit">
-                            <p></p>
-                            <p><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
-                            <p>Register Now</p>
-                        </button>
-                    </a>
+                       </thead>
+                       <tbody>
+                       <tr>
+                           <td>[Class Name]</td>
+                           <td>[Price]</td>
+                           <td>[Num]</td>
+                           <td><button class="btn btn-default" type="button" data-toggle="modal" data-target="#classInfo">Details</button></td>
+                       </tr>
+
+
+                       </tbody>
+                   </table>
                 </div>
             </div>
         </div>
 
+
     </div>
 
 
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3>Description</h3>
-        </div>
-        <div class="panel-body">
-            Event Description Here
-        </div>
-    </div>
 
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3>Class List</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th>ID#</th>
-                    <th>Name</th>
-                    <th>Entry Price</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tr>
-                    <td>[ID#]</td>
-                    <td>[Class Name]</td>
-                    <td>[Price]</td>
-                    <td><button class="btn btn-default" type="submit">
-                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> View Details
-                        </button></td>
-                </tr>
 
-            </table>
-        </div>
-    </div>
+
+
+
+
 
 
 
