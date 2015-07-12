@@ -2,6 +2,133 @@
 
 @section('content')
 
+    <!-- Edit Personal Information Modal -->
+    <div class="modal fade bs-example-modal-md" id="personal" tabindex="-1" role="dialog" aria-labelledby="personal">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Personal Information</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fName">First Name</label>
+                            <input type="text" class="form-control" id="fName">
+                        </div>
+                        <div class="form-group">
+                            <label for="init">Middle Initial</label>
+                            <input type="text" class="form-control" id="init">
+                        </div>
+                        <div class="form-group">
+                            <label for="lName">Last Name</label>
+                            <input type="text" class="form-control" id="lName">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select class="form-control" id="gender">
+                                <option>Female</option>
+                                <option>Male</option>
+                                <option>Prefer Not To Disclose</option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bday">Birthdate</label>
+                            <input type="date" class="form-control" id="bday">
+                        </div>
+
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-default">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close Without Saving</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Contact Details Modal -->
+    <div class="modal fade bs-example-modal-md" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Contact Details</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="street">Address</label>
+                            <p><input type="text" class="form-control" id="street" placeholder="Street"></p>
+                            <p><input type="text" class="form-control" id="unit" placeholder="Apartment/Suite/Unit"></p>
+                            <p><input type="text" class="form-control" id="city" placeholder="City"></p>
+                            <p><input type="text" class="form-control" id="province" placeholder="Province/State"></p>
+                            <p><input type="text" class="form-control" id="postal" placeholder="Postal/ Zip Code"></p>
+                            <p><input type="text" class="form-control" id="country" placeholder="Country"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="tele">Phone Number</label>
+                            <input type="tel" class="form-control" id="tele">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+
+
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-default">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close Without Saving</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Equestrian Details Modal -->
+    <div class="modal fade bs-example-modal-md" id="equestrian" tabindex="-1" role="dialog" aria-labelledby="equestrian">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Equestrian Details</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="coach">Coach</label>
+                            <input type="text" class="form-control" id="coach">
+                        </div>
+                        <div class="form-group">
+                            <label for="stable">Stable</label>
+                            <input type="text" class="form-control" id="stable">
+                        </div>
+
+
+
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-default">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close Without Saving</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <h1>Your Information</h1>
     <hr />
 
@@ -36,7 +163,8 @@
 
                 </table>
                 <div class="panel-footer text-center">
-                    <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
+                    <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#personal"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button>
+
                 </div>
             </div>
         </div>
@@ -61,7 +189,8 @@
                     </tr>
                 </table>
                 <div class="panel-footer text-center">
-                    <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
+                    <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#contact"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button>
+
                 </div>
             </div>
         </div>
@@ -83,7 +212,8 @@
                     </tr>
                 </table>
                 <div class="panel-footer text-center">
-                    <a href=""><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button></a>
+                    <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#equestrian"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit</button>
+
                 </div>
             </div>
         </div>
